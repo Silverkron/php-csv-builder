@@ -9,11 +9,39 @@ namespace CsvBuilder;
 
 class CsvBuilder
 {
-    private $filePath = '/tmp/';
+    /**
+     * The default file path
+     *
+     * @var string
+     */
+    private $filePath;
+
+    /**
+     * The default file name
+     *
+     * @var string
+     */
     private $fileName;
+
+    /**
+     * First file row with all columns name
+     *
+     * @var string
+     */
     private $titles;
+
+    /**
+     * First file rows
+     *
+     * @var string
+     */
     private $rows;
 
+    /**
+     * Character for comma escape
+     *
+     * @var string
+     */
     private $charForEscape = ' ';
 
     /**
@@ -26,6 +54,10 @@ class CsvBuilder
         $this->filePath = '/tmp/';
     }
 
+    /**
+     * @param string $param
+     * @return string
+     */
     private function escape($param)
     {
         return str_replace(',', $this->charForEscape, $param);
