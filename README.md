@@ -1,9 +1,10 @@
 PHP csv builder 
 ===============
 
-[![GitHub issues](https://img.shields.io/github/issues/Silverkron/php-csv-builder.svg)](https://github.com/Silverkron/php-csv-builder/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Silverkron/php-csv-builder.svg)](https://github.com/Silverkron/php-csv-builder/network)
-[![GitHub license](https://img.shields.io/github/license/Silverkron/php-csv-builder.svg)](https://github.com/Silverkron/php-csv-builder/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Silverkron/php-csv-builder.svg?style=flat-square)](https://github.com/Silverkron/php-csv-builder)
+[![Latest Stable Version](https://img.shields.io/github/release/Silverkron/php-csv-builder.svg?style=flat-square)](https://github.com/Silverkron/php-csv-builder)
+[![Jarvis approved](https://img.shields.io/badge/jarvis-approved-blue.svg?style=flat-square)](http://marvel-movies.wikia.com/wiki/J.A.R.V.I.S.)
+[![GitHub license](https://img.shields.io/github/license/Silverkron/php-csv-builder.svg?style=flat-square)](https://github.com/Silverkron/php-csv-builder/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/Silverkron/php-csv-builder.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FSilverkron%2Fphp-csv-builder)
 
 Build csv file and save or download it. Simple librery to write csv file in your php application
